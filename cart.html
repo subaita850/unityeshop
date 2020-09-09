@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=deice-width,initial-scale=1.0">
+<link rel="stylesheet" href="sheet.css">
+<title>Cart products</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+<div class="container">
+
+
+<div class="navbar">
+<div class="logo">
+
+<a href="store.html"><img src="J:\ecommerce\imges\logo.png"></a>
+
+</div>
+
+<nav>
+     <ul id="MenuItems">
+         <li><a href="store.html">Home</a></li>
+         <li><a href="products.html">Products</a></li>
+         <li><a href="#">About</a></li>
+         <li><a href="#">Contact</a></li>
+         <li><a href="account.html">Account</a></li>
+
+     </ul>
+
+
+</nav>
+<a href="cart.html"><img src="J:\ecommerce\imges\icon.jpg" width="30px" height="30px"></a>
+<img src="J:\ecommerce\imges\menuicon.jpg"class="menu-icon"
+ onclick="menutoggle()">
+ </div>
+
+</div>
+ <!------------------------cart items details------------------------------->
+<div class="small-container cart-page">
+
+    <table>
+	<tr>
+	   <th>Product</th>
+	   <th>Quaintity</th>
+	   <th>Subtotal</th>
+	</tr>
+	 <tr>
+	     <td>
+		     <div class="cart-info">
+			  <img src="J:\ecommerce\imges\buy-1.jpg">
+			   <div>
+			   <p>Red Printed T-shirt</p>
+			   <small> Price:$50.00</small>
+			   <br>
+			   <a href="#">Remove</a>
+			   <div>
+			 </div>
+		 </td>
+	     <td><input type="number"value="1"> </td>
+	     <td>$50.00 </td>
+	     
+	 </tr>
+	 
+	 
+	 
+	  <tr>
+	     <td>
+		     <div class="cart-info">
+			  <img src="J:\ecommerce\imges\buy-2.jpg">
+			   <div>
+			   <p>Red Printed T-shirt</p>
+			   <small> Price:$70.00</small>
+			   <br>
+			   <a href="#">Remove</a>
+			   <div>
+			 </div>
+		 </td>
+	     <td><input type="number"value="1"> </td>
+	     <td>$70.00 </td>
+	     
+	 </tr>
+	 
+	 
+	 
+	  <tr>
+	     <td>
+		     <div class="cart-info">
+			  <img src="J:\ecommerce\imges\buy-3.jpg">
+			   <div>
+			   <p>Red Printed T-shirt</p>
+			   <small> Price:$80.00</small>
+			   <br>
+			   <a href="#">Remove</a>
+			   <div>
+			 </div>
+		 </td>
+	     <td><input type="number"value="1"> </td>
+	     <td>$80.00 </td>
+	   </tr>
+	</table>
+	
+	
+	<div class="total-price">
+	
+	     <table>
+		    <tr>
+			   <td>subtotal</td>
+			   <td>$200.00</td>
+			</tr>
+			 <tr>
+			   <td>tax</td>
+			   <td>$35.00</td>
+			</tr>
+			 <tr>
+			   <td>total</td>
+			   <td>$235.00</td>
+			</tr>
+		 </table>
+	</div>
+	
+</div>
+   
+   
+   
+<!------------------------footer------------------------------->
+ <div class="footer">
+   
+       <div class="container">
+          <div class="row">
+   <div class="footer-col-1">
+   <h3> Download Our App</h3>
+   <p> Download App for Android and ios mobile phone </p>
+   <div class="app-logo">
+    <img src="J:\ecommerce\imges\app-store.png">
+    <img src="J:\ecommerce\imges\play-store.png">
+   </div>
+ </div>
+   
+ <div class="footer-col-2">
+   <img src="J:\ecommerce\imges\footer.jpg">
+   <p> Our Purpose is to Sustainably Make the Pleasure and
+   Benefits of Sports Accessible to the Many </p>
+</div>
+   
+   
+<div class="footer-col-3">
+   <h3> Useful links</h3>
+  <ul>
+  <li>Coupons</li>
+  <li>Blog Post</li>
+  <li>Return Policy</li>
+  <li>Join Affiliate</li>
+  </ul>
+  
+</div>
+   
+   
+<div class="footer-col-4">
+ <h3> Follow us </h3>
+ <ul>
+  <li>Facebook</li>
+  <li>Twitter</li>
+  <li>Instagram</li>
+  <li>YouTube</li>
+  </ul>
+  
+    </div>  
+  </div>
+	   <hr>
+	   <p class="copyright"> 2020 Copy right  ahmed sobir </p>
+    </div>
+ </div>
+   
+   <!-----------js for toggle menu----------->
+    <script> 
+   var MenuItems = document.getElementById("MenuItems")
+     MenuItems.style.maxHeight ="0px";
+ 
+   
+   function menutoggle(){
+       if (MenuItems.style.maxHeight == "0px")
+	      {
+	     MenuItems.style.maxHeight ="200px"
+	      }
+	   else
+	       { 
+	        MenuItems.style.maxHeight ="0px"
+	       }
+   }
+   </script>
+ 
+   
+</body>
+
+</html>
